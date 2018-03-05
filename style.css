@@ -1,17 +1,10 @@
-html {
-	height: 100%;
-	margin: 0px;
-	padding: 0px;
+html { 
+  background: url(nb.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
-
-#index {
-	margin: 0px;
-	padding: 0px;
-	background-image: url(nb.png);
-	height: 100%;
-    background-repeat: no-repeat;
-}
-
 #first {
 	text-align: center;
 	font-family: 'Lato', sans-serif;
