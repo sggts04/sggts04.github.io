@@ -1,0 +1,62 @@
+html { 
+  background: url(nb.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#first {
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	font-size: 100px;
+	padding: 0px;
+	margin-top: 150px;
+	color: #2c3e50;
+}
+
+#second {
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 80px;
+	margin-top: -125px;
+	color: #2c3e50;
+}
+
+#desc {
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+	font-size: 40px;
+	margin-top: -80px;
+}
+
+footer {
+	margin-top: 15%;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 20px;
+	text-align: center;
+}
+
+#desc p {
+	display: inline;
+}
+
+#f {
+	color: #f39c12;
+	font-weight: 300;
+}
+
+#s {
+	color: #ecf0f1;
+	font-weight: 300;
+}
+
+#t {
+	color: #138808;
+	font-weight: 300;
+}
+
+
+
