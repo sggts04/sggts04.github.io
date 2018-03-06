@@ -5,11 +5,7 @@ body {
   -o-background-size: cover;
   background-size: cover;
 }
-@media (min-width: 100px) and (max-width: 500px) {
-  body {
-    background: url(nbm.jpg) no-repeat center center fixed;
-  }
-}
+
 #first {
 	text-align: center;
 	font-family: 'Montserrat', sans-serif;
@@ -57,6 +53,29 @@ body {
 	color: #138808;
 	font-weight: 200;
 	animation-delay: 2s;
+}
+
+@media (min-width: 50px) and (max-width: 500px) {
+
+  body {
+    background: url(nbm.jpg) no-repeat center center fixed;
+  }
+
+  #first {
+  	font-size: 55px;
+  	margin-top: 210px;
+  }
+
+  #second {
+  	font-size: 61.87px;
+  	margin-top: -70px;
+  }
+
+  #desc {
+  	font-size: 30.937px;
+  	margin-top: -65px;
+  }
+
 }
 
 
