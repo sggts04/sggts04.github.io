@@ -6,6 +6,34 @@ body {
   background-size: cover;
 }
 
+a {
+	text-decoration: none;
+}
+
+ul{
+	list-style-type: none;
+	text-align: center;
+	margin-top: 20px;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding: 0px;
+}
+
+
+li {
+	display: inline-block;
+	text-align: center;
+	padding: 0 25px 0 25px;
+	font-size: 35px;
+	opacity: 0.6;
+	transition: opacity 0.2s;
+}
+
+li:hover {
+	opacity: 1;
+	transition: opacity 0.2s;
+}
+
 #first {
 	text-align: center;
 	font-family: 'Montserrat', sans-serif;
@@ -54,6 +82,26 @@ body {
 	color: #138808;
 	font-weight: 200;
 	animation-delay: 2s;
+}
+
+.fa-twitter {
+	color: #48dbfb;
+	animation-delay: 2.5s;
+}
+
+.fa-youtube {
+	color: #ee5253;
+	animation-delay: 2.5s;
+}
+
+.fa-envelope-o {
+	color: #576574;
+	animation-delay: 2.5s;
+}
+
+.fa-instagram {
+	color: #5f27cd;
+	animation-delay: 2.5s;
 }
 
 @media (min-width: 50px) and (max-width: 500px) {
