@@ -7,7 +7,7 @@ body {
 }
 @media (min-width: 100px) and (max-width: 500px) {
   body {
-    background: url(nb.png) no-repeat center center fixed;
+    background: url(nbm.png) no-repeat center center fixed;
   }
 #first {
 	text-align: center;
