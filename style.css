@@ -37,8 +37,8 @@ li:hover {
 
 #first {
 	text-align: center;
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 300;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
 	font-size: 80px;
 	padding: 0px;
 	margin-top: 170px;
@@ -48,8 +48,8 @@ li:hover {
 
 #second {
 	text-align: center;
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 100;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
 	font-size: 90px;
 	margin-top: -110px;
 	color: #2c3e50;
