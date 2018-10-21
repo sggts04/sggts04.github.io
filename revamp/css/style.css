@@ -16,6 +16,10 @@ header {
   	text-align: center;
 }
 
+.header-container {
+/*	margin-top: 50%;*/
+}
+
 .me {
 	width: 150px;
 	border-radius: 50%;
@@ -61,6 +65,10 @@ footer {
   	padding: 2em;
   	text-align: center;
   	color: white;
+}
+
+.footer-container {
+/*	margin-top: 50%;*/
 }
 
 .foot-links {
