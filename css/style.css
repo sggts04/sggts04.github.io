@@ -104,9 +104,6 @@ footer {
 		display: inline-block;
 		padding: 0.7em;
 	}
-	.nav-list-links:hover {
-		box-shadow: black 1px 1px;
-	}
 	.foot-links {
 		display: inline-block;
 	}
