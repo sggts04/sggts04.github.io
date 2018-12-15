@@ -118,17 +118,24 @@ footer {
 	font-weight: 400;
 	margin-top: 0;
 	margin-bottom: 0;
+	animation-delay: 0.3s;
 }
 
 #center-desc {
 	font-family: 'Montserrat', sans-serif;
+	animation-delay: 0.5s;
 }
 
 .line-break {
 	height: 2px;
 	background-color: #636e72;
+	animation-delay: 0.7s;
 }
 
 span {
 	font-weight: bold;
+}
+
+.content-1 {
+	animation-delay: 1s;
 }
