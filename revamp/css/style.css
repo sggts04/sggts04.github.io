@@ -1,0 +1,31 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+* {
+	margin: 0;
+}
+
+.main {
+	height: 100vh;
+	background-image: url("../img/main.png");
+	background-size: 100%;
+	background-blend-mode: lighten;
+	background-repeat: no-repeat;
+}
+
+.name {
+	font-family: 'M PLUS 1p', sans-serif;
+	font-weight: 100;
+	font-size: 6vw;
+	padding: 13%;
+}
+
+.desc {
+	font-family: 'M PLUS 1p', sans-serif;
+	font-weight: 100;
+	font-size: 3vw;
+	padding: 15%;
+	margin-top: -29%;
+}
