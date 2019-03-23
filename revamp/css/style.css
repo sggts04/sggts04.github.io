@@ -47,6 +47,10 @@ ul {
 	display: inline-block;
 }
 
+.foot {
+	font-size: 1.7em;
+}
+
 li {
 	display: inline-block;
 	border-bottom: 2px solid #bdc3c7;
@@ -54,11 +58,16 @@ li {
 	transition: border 0.5s;
 }
 
+a > li {
+	border-bottom: 2px solid transparent;
+	padding: 5px 15px 5px 15px;
+}
+
 li:hover {
 	border-bottom: 2px solid;
 }
 
-@media (max-width: 724px) {
+@media (max-width: 727px) {
 	.me {
 		height: 160px;
 	}
@@ -71,15 +80,18 @@ li:hover {
 		font-size: 1em;
 		font-weight: 400;
 	}
-	ul {
+	.nav {
 		font-size: 1.1em;
 	}
 	li {
 		padding: 5px 8px 5px 8px;
 	}
+	a > li {
+		padding: 5px 10px 5px 10px;
+	}
 }
 
-@media (max-width: 611px) {
+@media (max-width: 614px) {
 	.name {
 		font-size: 2.1em;
 		font-weight: 400;
@@ -88,29 +100,35 @@ li:hover {
 	.desc {
 		font-size: 1em;
 	}
-	ul {
+	.nav {
 		font-size: 1em;
 		font-weight: 400;
 	}
 	li {
 		padding: 5px 7px 5px 7px;
 	}
+	a > li {
+		padding: 5px 7px 5px 7px;
+	}
 }
 
-@media (max-width: 570px) {
+@media (max-width: 572px) {
 	li {
 		display: block;
 		width: inherit;
 	}
 }
 
-@media (max-width: 475px) {
+@media (max-width: 482px) {
 	.name {
 		font-size: 1.8em;
 	}
 	
 	.desc {
 		font-size: 1em;
+	}
+	.foot {
+		font-size: 1.4em;
 	}
 }
 
