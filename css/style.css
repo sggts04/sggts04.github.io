@@ -129,13 +129,14 @@ li:hover {
 	}
 	.foot {
 		font-size: 1.4em;
+		padding: 1.2em 10px 0 10px;
 	}
 }
 
 @media (max-width: 428px) {
 	.foot {
 		font-size: 1.3em;
-		padding: 1em 0 0 0;
+		padding: 1.2em 0 0 0;
 	}
 }
 
