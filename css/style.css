@@ -132,6 +132,13 @@ li:hover {
 	}
 }
 
+@media (max-width: 428px) {
+	.foot {
+		font-size: 1.3em;
+		padding: 1em 0 0 0;
+	}
+}
+
 @media (max-width: 395px) {
 	.me {
 		height: 140px;
@@ -144,5 +151,17 @@ li:hover {
 	
 	.desc {
 		font-size: 0.9em;
+	}
+	.foot {
+		font-size: 1.2em;
+	}
+	a > li {
+		padding: 5px 5px 5px 5px;
+	}
+}
+
+@media (max-width: 328px) {
+	.name {
+		font-size: 1.45em;
 	}
 }
