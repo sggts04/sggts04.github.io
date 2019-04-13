@@ -1,7 +1,14 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
 body {
 	margin: 0;
 	padding: 0;
-	background-color: #dfe4ea;
+    background-color: #dfe4ea;
+    display: table;
+    width: 100%; 
 }
 
 * {
@@ -68,6 +75,7 @@ li:hover {
 
 .foot-wrapper {
     text-align: center;
+    display: table-footer-group;
 }
 
 a > li {
