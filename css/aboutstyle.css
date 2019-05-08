@@ -16,7 +16,7 @@ body {
 }
 
 .lander {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'IBM Plex Sans', sans-serif;
     text-align: center;
     margin-top: 1.5em;
 }
@@ -60,7 +60,7 @@ li:hover {
 }
 
 .content {
-    font-family: 'Open Sans', serif;
+    font-family: 'IBM Plex Sans', serif;
     margin: 2em 10em 0 10em;
     font-size: 1.25em;
     font-weight: 300;
