@@ -67,6 +67,13 @@ li:hover {
     text-align: left;
 }
 
+aside > img {
+    float: right;
+    margin: 15px;
+    border-radius: 8px;
+    height: 300px;
+}
+
 .foot {
     font-size: 1.7em;
     margin-top: 0.3em;
@@ -107,6 +114,9 @@ span {
     .content {
         margin: 2em 4em 0 4em;
     }
+    aside > img {
+        height: 200px;
+    }
 }
 
 @media (max-width: 615px) {
@@ -135,6 +145,16 @@ span {
     }
     a > li {
         padding: 5px 13px 5px 13px;
+    }
+}
+
+@media (max-width: 428px) {
+    aside > img {
+        height: 250px;
+        float: initial;
+    }
+    aside {
+        text-align: center;
     }
 }
 
