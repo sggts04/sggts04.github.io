@@ -6,7 +6,8 @@ html, body {
 body {
 	margin: 0;
 	padding: 0;
-    background-color: #dfe4ea;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgb(247, 237, 227) 39.5%, rgba(100,46,122,0.23) 100.2% );
+	height: 100vh;
     display: table;
     width: 100%; 
 }
@@ -24,8 +25,6 @@ body {
 .me {
 	border-radius: 50%;
 	height: 110px;
-    border:3px solid #34495e;
-    transform: rotate(-2deg);
 }
 
 
