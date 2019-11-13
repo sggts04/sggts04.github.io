@@ -6,8 +6,7 @@ html, body {
 body {
 	margin: 0;
 	padding: 0;
-    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgb(247, 237, 227) 39.5%, rgba(100,46,122,0.23) 100.2% );
-	height: 100vh;
+    background-color: rgb(247, 237, 227);
     display: table;
     width: 100%; 
 }
