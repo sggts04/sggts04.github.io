@@ -1,0 +1,159 @@
+body {
+    background-color: #222f3e!important;
+    color: white!important;
+}
+
+.main-jumbotron {
+    background: url("../img/banner.jpg") no-repeat center center; 
+    background-size: cover;
+    min-height: 100vh;
+    min-width: 80vw;
+    display: flex;
+    align-items: center;
+    color: black!important;
+}
+
+.name-container {
+    margin-left: 800px!important;
+}
+
+.name-wrapper {
+    text-align: center;
+    -webkit-animation: fadein 2s;
+       -moz-animation: fadein 2s;
+            animation: fadein 2s;
+}
+
+.name {
+    font-size: 7em!important;
+}
+
+.desc {
+    font-size: 1.5em!important;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@media (max-width: 1530px) {
+    .name-container {
+        margin-left: 700px!important;
+    }
+    .name {
+        font-size: 6em!important;
+    }
+    .desc {
+        font-size: 1.4em!important;
+    }
+}
+
+@media (max-width: 1330px) {
+    .name-container {
+        margin-left: 600px!important;
+    }
+    .name {
+        font-size: 5em!important;
+    }
+    .desc {
+        font-size: 1.2em!important;
+    }
+}
+
+@media (max-width: 1130px) {
+    .name-container {
+        margin-left: 400px!important;
+    }
+}
+
+@media (max-width: 930px) {
+    .name-container {
+        margin-left: 200px!important;
+    }
+}
+
+@media (max-width: 730px) {
+    .jumbotron {
+        justify-content: space-between;
+    }
+    .name-container {
+        margin-left: auto!important;
+    }
+}
+
+@media (max-width: 530px) {
+    .name {
+        font-size: 3em!important;
+    }
+    .desc {
+        font-size: 1em!important;
+    }
+}
+.about {
+    background-color: #222f3e!important;
+    padding-top: 1em!important;
+    margin-bottom: 0!important;
+}
+
+.about-desc {
+    font-family: 'Open Sans';
+    margin-top: 1em;
+}
+
+@media (max-width: 1330px) {
+    .about-head {
+        font-size: 3em!important;
+    }
+    .about-desc {
+        font-size: 1.2em!important;
+    }
+}
+
+@media (max-width: 730px) {
+    .about-head {
+        font-size: 2em!important;
+    }
+    .about-desc {
+        font-size: 1em!important;
+    }
+}
+
+.footer {
+    background-color: black!important;
+    margin: 0!important;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em!important;
+}
+
+.foot-wrapper {
+    text-align: center;
+}
+
+.foot-wrapper a {
+    color: white;
+    text-decoration: none;
+    font-size: 2em;
+}
+
+.foot {
+    padding-inline-start: 0px!important;
+    margin: 0!important;
+}
+
+.foot-wrapper li {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
