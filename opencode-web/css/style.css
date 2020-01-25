@@ -94,12 +94,31 @@ body {
 
 @media (max-width: 530px) {
     .name {
+        font-size: 3.8em!important;
+    }
+    .desc {
+        font-size: 1.1em!important;
+    }
+}
+
+@media (max-width: 415px) {
+    .name {
+        font-size: 3.5em!important;
+    }
+    .desc {
+        font-size: 1.1em!important;
+    }
+}
+
+@media (max-width: 380px) {
+    .name {
         font-size: 3em!important;
     }
     .desc {
-        font-size: 1em!important;
+        font-size: 1.1em!important;
     }
 }
+
 .about {
     background-color: #222f3e!important;
     padding-top: 1em!important;
