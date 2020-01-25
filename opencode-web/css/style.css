@@ -186,3 +186,18 @@ body {
     padding-left: 0.5em;
     padding-right: 0.5em;
 }
+
+.divider {
+    background: white;
+    height: 2px;
+    width: 40%;
+}
+
+.second {
+    margin-top: 2em;
+}
+
+.table {
+    margin-top: 2em;
+    color: white!important;
+}
