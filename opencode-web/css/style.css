@@ -18,7 +18,7 @@ body {
 }
 
 .main-jumbotron a {
-    color: white!important;
+    color: black!important;
     text-decoration: none;
     font-size: 2em;
 }
@@ -102,8 +102,12 @@ body {
         background-size: auto 100%!important;
         text-shadow: 2px 2px black;
     }
+    .main-jumbotron a {
+        color: white!important;
+    }
     .name-container {
         margin-left: auto!important;
+        padding-bottom: 2em;
     }
 }
 
