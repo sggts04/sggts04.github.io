@@ -11,6 +11,7 @@ fetch(url).then(function(response) {
         errMsg.style.display = "none";
 
         let projects = document.getElementById("proj");
+        projects.innerHTML = "";
         repos.sort((a, b) => b.stargazers_count - a.stargazers_count);
         console.log(repos);
         for(let i=0; i<repos.length;i++){
