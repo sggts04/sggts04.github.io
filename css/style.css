@@ -214,6 +214,16 @@ aside > img {
 	}
 }
 
+#errMsg a {
+	text-decoration: underline;
+	transition: all 0.3s;
+	color: rgb(92, 92, 92);
+}
+
+#errMsg a:hover {
+	color: black;
+}
+
 .cards {
 	display: grid;
     grid-template-columns: auto auto auto;

@@ -15,6 +15,7 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:300,400" rel="stylesheet">
 	<link rel="stylesheet" href="https://rawgit.com/alvarotrigo/fullPage.js/dev/src/fullpage.css">
+	<script src="js/script.js"></script>
 </head>
 <body>
 	<div id="fullpage">
@@ -56,138 +57,11 @@
 			<br/><br/>
 		</div>
 
-		<div class="projects content section" data-anchor="projectsd">
+		<div class="projects content section" id="proj-wrapper" data-anchor="projectsd">
 			<h1>Projects</h1>
-			<div class="cards">
-
-				<div class="repo">
-					<div class="repo-name">
-						<span>dankcli</span>
-					</div>
-					<p class="description">CLI Image Captioning Tool or Meme Generator which automatically adds whitespace and text to top</p>
-					<br/>
-					<p class="light"><i class="fa fa-circle" style="color: #3572A5"></i> Python &nbsp; <i class="fa fa-star"></i> 15 &nbsp; <i class="fa fa-code-fork"></i> 4</p>
-					<br/>
-					<div class="repo-links">
-						<a href="https://github.com/sggts04/dankcli"><div class="btn btn-outline-success btn-sm">Github</div></a>
-						
-						&nbsp;
-						<a href="https://pypi.org/project/dankcli/"><div class="btn btn-outline-primary btn-sm">Website</div></a>
-						
-					</div>
-				</div>
+			<div id="errMsg">Wow, thanks for overloading the website and breaking the API system. You'll have to go my <a href="https://github.com/sggts04">Github Profile</a> to checkout my projects now.</div>
+			<div class="cards" id="proj">
 				
-			
-				
-				<div class="repo">
-					<div class="repo-name">
-						<span>thanosapi</span>
-					</div>
-					<p class="description">Thanos API: API that returns Thanos quotes. Built in ExpressJS in Node</p>
-					<br/>
-					<p class="light"><i class="fa fa-circle" style="color: #f1e05a"></i> JavaScript &nbsp; <i class="fa fa-star"></i> 12 &nbsp; <i class="fa fa-code-fork"></i> 4</p>
-					<br/>
-					<div class="repo-links">
-						<a href="https://github.com/sggts04/thanosapi"><div class="btn btn-outline-success btn-sm">Github</div></a>
-						
-						&nbsp;
-						<a href="https://thanosapi.herokuapp.com/"><div class="btn btn-outline-primary btn-sm">Website</div></a>
-						
-					</div>
-				</div>
-				
-			
-				
-				<div class="repo">
-					<div class="repo-name">
-						<span>flask-todos</span>
-					</div>
-					<p class="description">A Todos WebApp built with Flask in Python (with user system and basic user API)</p>
-					<br/>
-					<p class="light"><i class="fa fa-circle" style="color: #3572A5"></i> Python &nbsp; <i class="fa fa-star"></i> 6 &nbsp; <i class="fa fa-code-fork"></i> 0</p>
-					<br/>
-					<div class="repo-links">
-						<a href="https://github.com/sggts04/flask-todos"><div class="btn btn-outline-success btn-sm">Github</div></a>
-						
-						&nbsp;
-						<a href="http://sggts04.pythonanywhere.com/"><div class="btn btn-outline-primary btn-sm">Website</div></a>
-						
-					</div>
-				</div>
-				
-			
-				
-				<div class="repo">
-					<div class="repo-name">
-						<span>pycubetimer</span>
-					</div>
-					<p class="description">A Rubik's Cube timer built with Tkinter in Python (saves old times and shows stats)</p>
-					<br/>
-					<p class="light"><i class="fa fa-circle" style="color: #3572A5"></i> Python &nbsp; <i class="fa fa-star"></i> 3 &nbsp; <i class="fa fa-code-fork"></i> 1</p>
-					<br/>
-					<div class="repo-links">
-						<a href="https://github.com/sggts04/pycubetimer"><div class="btn btn-outline-success btn-sm">Github</div></a>
-						
-					</div>
-				</div>
-				
-			
-				
-				<div class="repo">
-					<div class="repo-name">
-						<span>BallSlayer</span>
-					</div>
-					<p class="description">Ball Slayer is a browser game made in pure JS</p>
-					<br/>
-					<p class="light"><i class="fa fa-circle" style="color: #f1e05a"></i> JavaScript &nbsp; <i class="fa fa-star"></i> 2 &nbsp; <i class="fa fa-code-fork"></i> 0</p>
-					<br/>
-					<div class="repo-links">
-						<a href="https://github.com/sggts04/BallSlayer"><div class="btn btn-outline-success btn-sm">Github</div></a>
-						
-						&nbsp;
-						<a href="https://shreyasgupta.in/BallSlayer/"><div class="btn btn-outline-primary btn-sm">Website</div></a>
-						
-					</div>
-				</div>
-				
-			
-				
-				<div class="repo">
-					<div class="repo-name">
-						<span>fixturer</span>
-					</div>
-					<p class="description">Fixturer is a Web App that generates single-elimination style fixtures.</p>
-					<br/>
-					<p class="light"><i class="fa fa-circle" style="color: #f1e05a"></i> JavaScript &nbsp; <i class="fa fa-star"></i> 1 &nbsp; <i class="fa fa-code-fork"></i> 0</p>
-					<br/>
-					<div class="repo-links">
-						<a href="https://github.com/sggts04/fixturer"><div class="btn btn-outline-success btn-sm">Github</div></a>
-						
-						&nbsp;
-						<a href="https://fixturer.surge.sh/"><div class="btn btn-outline-primary btn-sm">Website</div></a>
-						
-					</div>
-				</div>
-				
-			
-				
-				<div class="repo">
-					<div class="repo-name">
-						<span>notes-keeper</span>
-					</div>
-					<p class="description">A Notes WebApp(like Google Docs) built in Django using Python (with user system)</p>
-					<br/>
-					<p class="light"><i class="fa fa-circle" style="color: #3572A5"></i> Python &nbsp; <i class="fa fa-star"></i> 1 &nbsp; <i class="fa fa-code-fork"></i> 0</p>
-					<br/>
-					<div class="repo-links">
-						<a href="https://github.com/sggts04/notes-keeper"><div class="btn btn-outline-success btn-sm">Github</div></a>
-						
-						&nbsp;
-						<a href="https://django-notes-keeper.herokuapp.com/"><div class="btn btn-outline-primary btn-sm">Website</div></a>
-						
-					</div>
-				</div>
-
 			</div>
 		</div>
 
