@@ -7,9 +7,9 @@ import gmail from '../img/gmail.svg';
 
 function Intro() {
   return (
-    <div className="flex justify-center content-center min-h-screen text-center">
+    <div className="intro-container flex justify-center content-center min-h-screen text-center">
       <div className="main flex sm:flex-row flex-col items-center justify-center">
-        <img src={me} className="me rounded-full sm:w-1/5 w-1/3 border-2 border-red-300 md:mx-12 sm:mx-6 mx-2" alt="me" />
+        <img src={me} className="me rounded-full sm:w-1/5 w-1/3 border-2 border-indigo-800 md:mx-12 sm:mx-6 mx-2" alt="me" />
         <div className="text flex flex-col md:mx-12 sm:mx-6 mx-3 sm:my-0 my-2.5">
             <p className="font-bold lg:text-7xl md:text-5xl sm:text-4xl text-4xl sm:my-1.5 my-0.5">
               Shreyas Gupta
@@ -18,11 +18,11 @@ function Intro() {
               Student, Tech Lover and Programmer
             </p>
             <ul className="lg:my-10 md:my-7 sm:my-5 my-5 social md:space-x-7 sm:space-x-5 space-x-3">
-                <a href="https://github.com/sggts04"><li className="inline-block"><img src={github} className="lg:h-7 sm:h-5 h-6" alt="github"></img></li></a>
-                <a href="https://twitter.com/@sggts04"><li className="inline-block"><img src={twitter} className="lg:h-7 sm:h-5 h-6" alt="twitter"></img></li></a>
-                <a href="https://www.youtube.com/user/gtshreyas"><li className="inline-block"><img src={youtube} className="lg:h-7 sm:h-5 h-6" alt="youtube"></img></li></a>
-                <a href="https://www.instagram.com/notshreyasgupta/"><li className="inline-block"><img src={instagram} className="lg:h-7 sm:h-5 h-6" alt="instagram"></img></li></a>
-                <a href="mailto:technology.shreyas@gmail.com"><li className="inline-block"><img src={gmail} className="lg:h-7 sm:h-5 h-6" alt="mail"></img></li></a>
+                <a href="https://github.com/sggts04" target="_blank" rel="noreferrer"><li className="inline-block"><img src={github} className="lg:h-7 sm:h-5 h-6" alt="github"></img></li></a>
+                <a href="https://twitter.com/@sggts04" target="_blank" rel="noreferrer"><li className="inline-block"><img src={twitter} className="lg:h-7 sm:h-5 h-6" alt="twitter"></img></li></a>
+                <a href="https://www.youtube.com/user/gtshreyas" target="_blank" rel="noreferrer"><li className="inline-block"><img src={youtube} className="lg:h-7 sm:h-5 h-6" alt="youtube"></img></li></a>
+                <a href="https://www.instagram.com/notshreyasgupta/" target="_blank" rel="noreferrer"><li className="inline-block"><img src={instagram} className="lg:h-7 sm:h-5 h-6" alt="instagram"></img></li></a>
+                <a href="mailto:technology.shreyas@gmail.com" target="_blank" rel="noreferrer"><li className="inline-block"><img src={gmail} className="lg:h-7 sm:h-5 h-6" alt="mail"></img></li></a>
             </ul>
           </div>
       </div>

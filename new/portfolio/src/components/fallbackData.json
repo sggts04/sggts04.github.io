@@ -1,0 +1,56 @@
+[
+    {
+        "_id": "611a0c9a7f04d8f0578689b6",
+        "projectTitle": "Impedia",
+        "projectDesc": "Impedia is an appeal management system that enables proper communication of issues or appeals between students and authorities for IIITA.",
+        "imgUrl": "https://i.imgur.com/JMdDOzs.png",
+        "githubUrl": "https://github.com/garvitchittora/Impedia",
+        "projectUrl": "https://impedia.herokuapp.com/",
+        "__v": 0
+    },
+    {
+        "_id": "611a0c9a7f04d8f0578689b7",
+        "projectTitle": "CalIIITA",
+        "projectDesc": "CalIIITA is a scheduling app that keeps track of all the events that happen in IIITA and helps you manage your time effectively!",
+        "imgUrl": "https://i.imgur.com/XFg421q.png",
+        "githubUrl": "https://github.com/GeekHaven/Saarani-backend",
+        "projectUrl": "https://play.google.com/store/apps/details?id=com.geekhaven.caliiita",
+        "__v": 0
+    },
+    {
+        "_id": "611a0c9a7f04d8f0578689b8",
+        "projectTitle": "PuzzleDash",
+        "projectDesc": "PuzzleDash is a remake of Chess Puzzle Rush, where you are challenged to solve a series of chess puzzles with increasing difficulty in limited time.",
+        "imgUrl": "https://i.imgur.com/W5OKsaK.png",
+        "githubUrl": "https://github.com/sggts04/PuzzleDash",
+        "projectUrl": "https://shreyasgupta.in/PuzzleDash/",
+        "__v": 0
+    },
+    {
+        "_id": "611a0c9a7f04d8f0578689b9",
+        "projectTitle": "dankCLI",
+        "projectDesc": "dankCLI is a CLI Image Captioning Tool or Meme Generator which automatically adds whitespace and text to top of your image through a CLI.",
+        "imgUrl": "https://i.imgur.com/JTDtFA2.png",
+        "githubUrl": "https://github.com/sggts04/dankcli",
+        "projectUrl": "https://pypi.org/project/dankcli/",
+        "__v": 0
+    },
+    {
+        "_id": "611a0c9a7f04d8f0578689ba",
+        "projectTitle": "Covid19 Live Indian Map",
+        "projectDesc": "A web app that features a live map which visualizes the spread of Corona Virus (COVID-19) in Indian states so you can get a better overview of the spread.",
+        "imgUrl": "https://i.imgur.com/4U4FW6I.png",
+        "githubUrl": "https://github.com/sggts04/covid19-India-Live-Map",
+        "projectUrl": "https://shreyasgupta.in/covid19-India-Live-Map/",
+        "__v": 0
+    },
+    {
+        "_id": "611a0c9a7f04d8f0578689bb",
+        "projectTitle": "Notes Keeper",
+        "projectDesc": "Notes Keeper is an authenticated Notes WebApp(like Google Docs) built in Django with a WYSIWYG editor and optional public notes.",
+        "imgUrl": "https://i.imgur.com/wSGo1Hu.png",
+        "githubUrl": "https://github.com/sggts04/notes-keeper",
+        "projectUrl": "",
+        "__v": 0
+    }
+]

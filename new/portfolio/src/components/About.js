@@ -2,13 +2,13 @@ import me2 from '../img/me2.jpg';
 
 function About() {
   return (
-    <div id="about-container" className="flex justify-center content-center md:px-32 sm:px-16 px-8 mt-6">
+    <div id="about-container" className="flex justify-center content-center lg:px-32 md:px-16 px-8 my-6">
       <div className="about flex flex-col">
         <p className="font-bold lg:text-5xl md:text-3xl sm:text-2xl text-2xl sm:my-2.5 my-1.5">
             About Me
         </p>
-        <div className="flex md:flex-row flex-col lg:text-2xl md:text-xl text-base md:my-2.5 my-1.5 font-light">
-          <center><img src={me2} className="m-6 rounded-md md:h-3/6 w-3/6 md:hidden" alt="about-me-img"></img></center>
+        <div className="block lg:text-2xl md:text-xl text-base md:mt-2.5 mt-1.5 font-light">
+          <center><img src={me2} className="big-image m-6 rounded-md lg:w-1/6 md:h-3/6 w-2/6 md:float-right" alt="about-me-img"></img></center>
           <p>
             I’m a student who is enthusiastic about tech and programming. I am currently studying Information Technology at Indian Institute of Information Technology, Allahabad. I grew up in Haridwar and did my schooling from Delhi Public School, Ranipur. I learned the basics of programming from school and then explored the Internet to expand my knowledge and understanding of various languages and concepts.
             <br/><br/>
@@ -20,7 +20,6 @@ function About() {
             <br/><br/>
             You can see my projects and their corresponding links on the Projects page below.
           </p>
-          <img src={me2} className="big-image m-6 rounded-md lg:h-3/6 md:h-1/6 sm:1/6 w-3/6 hidden md:block" alt="about-me-img"></img>
         </div>
       </div>
     </div>
