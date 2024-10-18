@@ -161,7 +161,7 @@ aside > img {
     float: right;
     margin: 15px;
     border-radius: 8px;
-    height: 300px;
+    height: 400px;
 }
 
 @media (max-width: 1000px) {
